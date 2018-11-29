@@ -1,6 +1,5 @@
-import firebase from './configs/firebase';
-import getTodo from './modules/getTodo';
-import insertTodo from './modules/insertTodo';
+import { firebase } from './configs';
+import { getTodo, insertTodo } from './modules';
 
 // init firebase
 firebase();
